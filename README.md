@@ -1,3 +1,55 @@
-# .github
+<p align="center">
+  <img src="https://raw.githubusercontent.com/EpicGames/.github/main/profile/EG-Shield-2023-logo-White.png" alt="Epic Games" width="200">
+</p>
 
-Manual Simplificado de Controle de Versões de Sistemas Versão: 1.0 Data: 17/09/2026 Objetivo: Estabelecer regras simples para identificação, controle e rastreabilidade das versões dos sistemas da organização. 1. Objetivo Este manual tem como finalidade definir o padrão de versionamento dos sistemas, garantindo: Rastreabilidade das alterações realizadas; Controle das liberações em produção; Histórico de evoluções e correções; Facilidade de comunicação entre equipes técnicas e usuários. 2. Padrão de Versionamento Será adotado o padrão: MAJOR.MINOR.PATCH Exemplo: Plain Text 2.5.3 Onde: Campo	Significado MAJOR	Alterações significativas ou que impactem funcionalidades existentes MINOR	Inclusão de novas funcionalidades sem quebrar compatibilidade PATCH	Correções de erros e pequenos ajustes Exemplos Versão	Descrição 1.0.0	Primeira versão oficial 1.1.0	Nova funcionalidade adicionada 1.1.1	Correção de erro 2.0.0	Grande reformulação do sistema 3. Registro das Alterações Toda alteração deve ser registrada em um histórico de mudanças (Changelog). Modelo Data	Versão	Responsável	Descrição 17/09/2026	1.0.0	João Silva	Implantação inicial 25/09/2026	1.1.0	Maria Souza	Inclusão de relatório financeiro 30/09/2026	1.1.1	João Silva	Correção de erro de cálculo 4. Ambiente de Desenvolvimento As alterações devem seguir o fluxo:   Desenvolvimento         ↓  Homologação         ↓  Produção   Desenvolvimento Ambiente utilizado pelos programadores para criação e ajustes. Homologação Ambiente para testes e validação pelos usuários responsáveis. Produção Ambiente utilizado pelos usuários finais. 5. Processo de Liberação Antes da publicação de uma nova versão devem ser realizadas as seguintes etapas: 1. Desenvolvimento Implementação da melhoria ou correção. 2. Testes Internos Validação técnica pela equipe de desenvolvimento. 3. Homologação Aprovação do usuário responsável ou área solicitante. 4. Publicação Liberação da nova versão em produção. 5. Registro Atualização do histórico de versões. 6. Controle de Backup Antes de qualquer atualização deve ser executado: Backup do banco de dados; Backup dos arquivos do sistema; Registro da data e responsável pela atualização. 7. Controle de Emergência Correções urgentes deverão: Receber numeração de PATCH. Ser documentadas. Ser homologadas posteriormente. Ser registradas no histórico de versões. Exemplo Plain Text 1.3.0 → versão atual 1.3.1 → correção emergencial   8. Responsabilidades Desenvolvedor Desenvolver e testar as alterações. Atualizar o histórico de versões. Gestor do Sistema Aprovar homologações. Autorizar publicações em produção. Usuário Homologador Validar funcionalidades antes da liberação. 9. Modelo de Registro de Versão Versão 2.1.0 Data: 17/09/2026 Responsável: Equipe de TI Novas Funcionalidades Inclusão de painel gerencial. Novo relatório financeiro. Correções Ajuste na exportação para Excel. Correção de cálculo de indicadores. Observações Não houve impacto na base de dados. 10. Aprovação Este manual deverá ser revisado anualmente ou sempre que houver alteração significativa no processo de desenvolvimento e manutenção dos sistemas. Documento aprovado por: __________________________ Data: //________ Assinatura: _____________________________ Controle do Documento   Versão do Manual	Data	Descrição 1.0	17/09/2026	Emissão inicial
+Official GitHub presence for Epic Games with a broad range of Epic-maintained developer tools & technologies. Here you'll find two main types of repositories:
+
+- **Unreal Engine & other licensed source repositories**, requiring Epic account linkage and acceptance of the applicable Epic license agreement before access is granted.
+- **Open source repositories**, which are publicly accessible under various open source licenses.
+
+If a repository's status is unclear, please treat it as EULA-gated and contact us before use.
+
+---
+
+# Unreal Engine & Licensed Source Repositories
+
+[Unreal Engine](https://www.unrealengine.com/en-US/solutions/games) for game development is free to get started (a 5% royalty only kicks in when your title earns over $1 million USD)
+
+To access our repositories, sign up for an Epic account at [UnrealEngine.com](https://www.unrealengine.com) and register your GitHub ID using [these instructions](https://www.unrealengine.com/ue4-on-github).
+
+After that, you can find our repositories here:
+
+- [Unreal Engine](https://github.com/EpicGames/UnrealEngine)
+- [Unreal Tournament](https://github.com/EpicGames/UnrealTournament)
+
+Please note:
+
+- You must be signed into GitHub and registered for access for these links to work. Once you have access, these repositories are clearly labeled with the topics `unreal-engine` or `epic-eula`.
+- Contributions to licensed Unreal Engine source repositories remain subject to the applicable Epic license agreements.
+
+---
+
+# Open Source Repositories
+
+Open source repositories in this organization are clearly labeled with the `open-source` topic and are licensed under their respective open source licenses (MIT, Apache 2.0, etc.)
+
+These repositories **do not require** an Epic account, Unreal Engine EULA acceptance, or membership in the `EpicGames` GitHub organization.
+
+**We welcome contributions to our open source repositories.** Each repository's CONTRIBUTING.md describes how contributions are accepted.
+
+Before contributing, please review each repository's license, contribution guidelines, code of conduct, and security policies.
+
+---
+
+# Security
+
+If you believe you've discovered a security vulnerability, please follow the reporting instructions in the relevant repository's `SECURITY.md` file or reach out to [security@epicgames.com](mailto:security@epicgames.com)
+
+---
+
+# Learn More
+
+- [Epic Developer Community](https://dev.epicgames.com/)
+- [Unreal Engine](https://www.unrealengine.com/)
+- [Epic Games](https://www.epicgames.com/)
+- [Lore](https://github.com/EpicGames/lore)
